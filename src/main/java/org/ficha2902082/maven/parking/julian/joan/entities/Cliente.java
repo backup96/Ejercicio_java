@@ -12,6 +12,14 @@ public class Cliente {
     public Long celular;
     public List <Carro> misCarros = new ArrayList<Carro>();
 
+    public Cliente(String nombre, String apellido, TipoDocumento tipoDocumento, Long numeroDocumento, Long celular) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.tipoDocumento = tipoDocumento;
+        this.numeroDocumento = numeroDocumento;
+        this.celular = celular;
+    }
+
     public void addCar(Carro c){
         this.misCarros.add(c);
     } 

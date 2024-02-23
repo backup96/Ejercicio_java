@@ -5,4 +5,5 @@ public enum TipoVehiculo {
     MOTO,
     ECOLINE,
     TAXI,
+    CARRO,
 }
