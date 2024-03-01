@@ -16,9 +16,10 @@ public class Registro {
     public Carro carro;
     public Cliente cliente;
     public Cupo cupo;
+    public Empleado empleado;
     
     public Registro(LocalDate fechaInicio, LocalTime horaInicio, LocalDate fechaFin, LocalTime horaFin, Double valor,
-            Carro carro, Cliente cliente, Cupo cupo) {
+            Carro carro, Cliente cliente, Cupo cupo, Empleado empleado) {
         this.fechaInicio = fechaInicio;
         this.horaInicio = horaInicio;
         this.fechaFin = fechaFin;
@@ -27,7 +28,7 @@ public class Registro {
         this.carro = carro;
         this.cliente = cliente;
         this.cupo = cupo;
-
+        this.empleado = empleado;
     }      
 
     
